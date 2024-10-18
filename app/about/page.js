@@ -51,7 +51,7 @@ export default function Page() {
         <Image
           className='object-cover'
           fill
-          // if we have image that dont have any information about dimensions
+          // if we have image and cant set width and height
           src='/about-2.jpg'
           alt='Family that manages The Wild Oasis'
         />
