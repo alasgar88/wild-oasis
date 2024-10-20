@@ -39,11 +39,11 @@ export default function Page() {
       <div className='col-span-2'>
         <Image
           src={image1}
+          quality={80}
+          alt='Family sitting around a fire pit in front of cabin'
           // will work only with staticly imported images
           placeholder='blur'
-          quality={80}
           //
-          alt='Family sitting around a fire pit in front of cabin'
         />
       </div>
 
